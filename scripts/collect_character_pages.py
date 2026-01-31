@@ -9,18 +9,19 @@ import json
 import logging
 import time
 from pathlib import Path
-from typing import List
+from typing import Dict, List
 
 import fandom
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 GROUPS_PATH = DATA_DIR / "character_groups.txt"
-OUTPUT_PATH = DATA_DIR / "character_pages.json"
+OUTPUT_PATH_GROUPS = DATA_DIR / "character_pages_v3.json"
+OUTPUT_PATH_CHARS = DATA_DIR / "character_groups_v3.json"
 
 WIKI_NAME = "wot"
 LANGUAGE = "en"
 
-MAX_RESULTS = 50
+MAX_RESULTS = 500
 RETRIES = 3
 BACKOFF_SECONDS = [1, 2, 4]
 
@@ -71,7 +72,8 @@ def _normalize_group_name(value: str) -> str:
         # Extract portion after Category: and decode URL-like separators.
         category_part = value.split("Category:", 1)[1]
         category_part = category_part.split("/", 1)[0]
-        return _decode_title(category_part)
+        # return _decode_title(category_part)
+        return category_part
 
     return value.strip()
 
@@ -84,30 +86,48 @@ def _decode_title(title: str) -> str:
     return replaced.strip()
 
 
-def collect_pages_for_group(group_name: str) -> List[str]:
+def collect_pages_for_group(group_name: str) -> List[Dict[str, str]]:
     """
-    Collect page titles for a group using fandom search.
+    Collect page titles and links for a group using fandom search.
 
     Note: fandom-py does not currently expose category membership directly,
     so this uses search queries as a fallback mechanism.
     """
-    queries = [
-        f"Category:{group_name}",
-        group_name,
-        f"{group_name} character",
-    ]
+    # queries = [
+    #     f"Category:{group_name}",
+    #     group_name,
+    #     f"{group_name} character",
+    # ]
+    queries = ["Biographical Information"]
 
-    titles: List[str] = []
+    pages: List[Dict[str, str]] = []
     seen = set()
 
     for query in queries:
+        print(f"\nQuery: {query} ")
         results = fandom.search(query, results=MAX_RESULTS)
         for title, _page_id in results:
-            if _is_valid_title(title) and title not in seen:
-                seen.add(title)
-                titles.append(title)
+            if not _is_valid_title(title) or title in seen:
+                continue
+            link = _safe_page_url(title)
+            if not link:
+                continue
+            print(f"> {title} - {link}")
+            seen.add(title)
+            pages.append({"title": title, "link": link})
 
-    return titles
+    return pages
+
+
+def _safe_page_url(title: str) -> str:
+    """
+    Resolve a page URL from a title using fandom-py.
+    """
+    try:
+        page = fandom.page(title)
+        return page.url or ""
+    except Exception:  # noqa: BLE001 - fallback to empty string
+        return ""
 
 
 def _is_valid_title(title: str) -> bool:
@@ -119,6 +139,11 @@ def _is_valid_title(title: str) -> bool:
     for prefix in NAMESPACE_PREFIXES:
         if title.startswith(prefix):
             return False
+
+    skip_terms = ("Chapter", "List of", "Glossary")
+    if any(term in title for term in skip_terms):
+        return False
+
     return True
 
 
@@ -158,6 +183,7 @@ def main() -> int:
         format="%(asctime)s %(levelname)s %(message)s",
     )
 
+    start_time = time.time()
     _init_fandom()
 
     if not GROUPS_PATH.exists():
@@ -169,7 +195,8 @@ def main() -> int:
         logging.error("No valid group names found in %s", GROUPS_PATH)
         return 1
 
-    output: dict[str, List[str]] = {}
+    output: dict[str, List[Dict[str, str]]] = {}
+    reverse_lookup = {}
 
     for group in group_names:
         logging.info("Collecting pages for group: %s", group)
@@ -181,12 +208,29 @@ def main() -> int:
                 group,
                 len(pages),
             )
+
+            for page in pages[0:5]:
+                title = page.get("title")
+                if not title:
+                    continue
+                entry = reverse_lookup.setdefault(
+                    title,
+                    {"title": title, "link": page.get("link", ""), "groups": []},
+                )
+                if group not in entry["groups"]:
+                    entry["groups"].append(group)
+
         except Exception as exc:  # noqa: BLE001 - log and continue
             logging.error("Group %s failed after retries: %s", group, exc)
             output[group] = []
 
-    write_json(OUTPUT_PATH, output)
-    logging.info("Wrote output to %s", OUTPUT_PATH)
+    write_json(OUTPUT_PATH_GROUPS, output)
+    logging.info("Wrote output to %s", OUTPUT_PATH_GROUPS)
+
+    write_json(OUTPUT_PATH_CHARS, reverse_lookup)
+    logging.info("Wrote output to %s", OUTPUT_PATH_CHARS)
+    elapsed = time.time() - start_time
+    logging.info("Total time: %.2f seconds", elapsed)
     return 0
 
 
