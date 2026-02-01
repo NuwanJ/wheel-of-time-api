@@ -1,0 +1,53 @@
+title: 'Wheel of Time API'
+baseurl: ''
+
+description: "A RESTful API for accessing detailed information about characters, locations, and events from the 'Wheel of Time' book series by Robert Jordan."
+
+github_repository: https://github.com/NuwanJ/wheel-of-time-api
+github_branch: main
+
+# Google Analytics Tracking (optional)
+ga_tracking:
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: '%b %-d, %Y'
+
+permalink: /:categories/:year-:month-:day-:title:output_ext
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  [
+    'node_modules/',
+    '*.gemspec',
+    '*.gem',
+    'Gemfile',
+    'Gemfile.lock',
+    'package.json',
+    'package-lock.json',
+    'script/',
+    'LICENSE.txt',
+    'lib/',
+    'bin/',
+    'Rakefile',
+    'graphic_templates',
+    '*.py',
+    '*.sh',
+    '*.yml',
+  ]
+
+# Guideline:https://www.digitalocean.com/community/tutorials/jekyll-compress-html
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  startings: []
+  blanklines: true
+  profile: false
+  # ignore:
+  #   envs: all
