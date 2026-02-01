@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wheel of Time API Docs</title>
+    <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css" />
+    <style>
+      body {
+        margin: 0;
+      }
+      .topbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
+    <script>
+      const spec = {
+        openapi: '3.0.3',
+        info: {
+          title: 'Wheel of Time Characters API',
+          version: '1.0.0',
+          description: 'API for Wheel of Time character data. Source: api/characters/v1/index.json',
+        },
+        servers: [{ url: '/' }],
+        paths: {
+          '/api/characters/v1': {
+            get: {
+              summary: 'List characters',
+              description: 'Returns an array of character records.',
+              responses: {
+                200: {
+                  description: 'Successful response',
+                  content: {
+                    'application/json': {
+                      schema: {
+                        type: 'array',
+                        items: { $ref: '#/components/schemas/Character' },
+                      },
+                      examples: {
+                        sample: {
+                          summary: 'Sample characters',
+                          value: [
+                            {
+                              id: 1,
+                              first_name: 'Rand',
+                              last_name: "al'Thor",
+                              full_name: "Rand al'Thor",
+                              nationality: 'Andor',
+                              race: 'Human',
+                              physical_appearance: {
+                                gender: 'Male',
+                                height: null,
+                                hair_color: null,
+                                eye_color: null,
+                              },
+                              titles: [
+                                'Dragon Reborn',
+                                'Coramoor',
+                                "Car'a'carn",
+                                'He Who Comes With the Dawn',
+                                'Shadowkiller',
+                                'King of Illian',
+                                'Lord of the Morning',
+                              ],
+                              other_names: [],
+                              rank: "Ta'veren",
+                              belonged_groups: ['Protagonists', 'Nobles and Rulers', 'Aiel', 'Military'],
+                              description: 'Central champion of the Light.',
+                              profile_picture: '',
+                              wiki_page_link: 'https://wot.fandom.com/wiki/Rand_al%27Thor',
+                            },
+                          ],
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+        components: {
+          schemas: {
+            Character: {
+              type: 'object',
+              required: [
+                'id',
+                'first_name',
+                'last_name',
+                'full_name',
+                'nationality',
+                'race',
+                'physical_appearance',
+                'titles',
+                'other_names',
+                'rank',
+                'belonged_groups',
+                'profile_picture',
+                'wiki_page_link',
+              ],
+              properties: {
+                id: { type: 'integer', example: 1 },
+                first_name: { type: 'string', example: 'Rand' },
+                last_name: { type: ['string', 'null'], example: "al'Thor" },
+                full_name: { type: 'string', example: "Rand al'Thor" },
+                nationality: { type: ['string', 'null'], example: 'Andor' },
+                race: { type: ['string', 'null'], example: 'Human' },
+                physical_appearance: {
+                  $ref: '#/components/schemas/PhysicalAppearance',
+                },
+                titles: {
+                  type: 'array',
+                  items: { type: 'string' },
+                  example: ['Dragon Reborn'],
+                },
+                other_names: {
+                  type: 'array',
+                  items: { type: 'string' },
+                  example: ['Matrim Cauthon'],
+                },
+                rank: { type: ['string', 'null'], example: "Ta'veren" },
+                belonged_groups: {
+                  type: 'array',
+                  items: { type: 'string' },
+                  example: ['Protagonists', 'Military'],
+                },
+                description: { type: ['string', 'null'], example: 'Aes Sedai leader.' },
+                profile_picture: { type: ['string', 'null'], example: '' },
+                wiki_page_link: {
+                  type: ['string', 'null'],
+                  format: 'uri',
+                  example: 'https://wot.fandom.com/wiki/Rand_al%27Thor',
+                },
+              },
+            },
+            PhysicalAppearance: {
+              type: 'object',
+              required: ['gender', 'height', 'hair_color', 'eye_color'],
+              properties: {
+                gender: { type: ['string', 'null'], example: 'Male' },
+                height: { type: ['string', 'number', 'null'], example: null },
+                hair_color: { type: ['string', 'null'], example: null },
+                eye_color: { type: ['string', 'null'], example: null },
+              },
+            },
+          },
+        },
+      };
+
+      window.ui = SwaggerUIBundle({
+        spec,
+        dom_id: '#swagger-ui',
+        deepLinking: true,
+      });
+    </script>
+  </body>
+</html>
