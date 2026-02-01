@@ -1,5 +1,5 @@
 title: 'Wheel of Time API'
-baseurl: ''
+baseurl: '/wheel-of-time-api'
 
 description: "A RESTful API for accessing detailed information about characters, locations, and events from the 'Wheel of Time' book series by Robert Jordan."
 
