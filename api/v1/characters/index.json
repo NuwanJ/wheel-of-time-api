@@ -1,0 +1,1018 @@
+[
+  {
+    "id": 1,
+    "first_name": "Rand",
+    "last_name": "al'Thor",
+    "full_name": "Rand al'Thor",
+    "nationality": "Andoran",
+    "date_of_birth": "2 Danu 978 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "6'6\" (198 cm)",
+      "hair_color": "Dark red",
+      "eye_color": "Gray-blue"
+    },
+    "titles": [
+      "Dragon Reborn",
+      "Coramoor",
+      "Car'a'carn",
+      "He Who Comes With the Dawn",
+      "Shadowkiller",
+      "King of Illian",
+      "Lord of the Morning"
+    ],
+    "rank": "King",
+    "belonged_groups": [],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Ravens"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Rand al'Thor is the central protagonist and the prophesied Dragon Reborn. A shepherd from the Two Rivers, he discovers his ability to channel and becomes the champion against the Dark One, eventually uniting nations and battling the Forsaken. He is a ta’veren whose actions shape the fate of the world.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/5/57/Rand_al%27thor_by_reddera-d761cuv_%281%29.jpg/revision/latest?cb=20160605153830",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Rand_al'Thor"
+  },
+  {
+    "id": 2,
+    "first_name": "Perrin",
+    "last_name": "Aybara",
+    "full_name": "Perrin Aybara",
+    "nationality": "Andoran",
+    "date_of_birth": "978 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "6'1½\" (187 cm)",
+      "hair_color": "Brown",
+      "eye_color": "Yellow/Gold, previously Dark Brown"
+    },
+    "titles": [
+      "Wolf King"
+    ],
+    "rank": "Lord of the Two Rivers",
+    "belonged_groups": [
+      "Wolfbrother"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Ravens"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Perrin Aybara is one of Rand al’Thor’s closest companions and a ta’veren. A gentle and thoughtful blacksmith, he later discovers he can communicate with wolves and becomes known as the Wolf King. He leads the Two Rivers and plays a crucial role in the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/b/bd/Perrin_aybara_wolf_king_by_reddera-d993otl.jpg/revision/latest?cb=20160605153745",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Perrin_Aybara"
+  },
+  {
+    "id": 3,
+    "first_name": "Matrim",
+    "last_name": "Cauthon",
+    "full_name": "Matrim Cauthon",
+    "nationality": "Andoran",
+    "date_of_birth": "978 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "5'11\" (180 cm)",
+      "hair_color": "Brown",
+      "eye_color": "Brown"
+    },
+    "titles": [
+      "Prince of the Ravens"
+    ],
+    "rank": "General",
+    "belonged_groups": [
+      "Band of the Red Hand"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Ravens"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Matrim 'Mat' Cauthon is a roguish ta’veren known for his luck and resourcefulness. Initially a prankster from the Two Rivers, he acquires an ancient fox-head medallion and a spear, leads the Band of the Red Hand, and becomes consort to Tuon (Fortuona) as the Prince of the Ravens.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/c/cb/Mat_cauthon_son_of_battles_by_reddera-d993o0f.jpg/revision/latest?cb=20160605153630",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Matrim_Cauthon"
+  },
+  {
+    "id": 4,
+    "first_name": "Nynaeve",
+    "last_name": "al'Meara",
+    "full_name": "el'Nynaeve ti al'Meara Mandragoran",
+    "nationality": "Andoran",
+    "date_of_birth": "974 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'4\" (163 cm)",
+      "hair_color": "Dark",
+      "eye_color": "Deep Brown"
+    },
+    "titles": [
+      "Queen of Malkier"
+    ],
+    "rank": "Aes Sedai (Yellow Ajah)",
+    "belonged_groups": [
+      "Yellow Ajah"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Ravens"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Nynaeve al’Meara, originally Wisdom of Emond’s Field, is a formidable healer and one of the strongest female channelers. As an Aes Sedai of the Yellow Ajah and later Queen of Malkier through marriage to Lan, she plays a crucial role in aiding Rand al’Thor and healing severed connections to the One Power.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/0/09/Wot-_nynaeve.jpg/revision/latest?cb=20160605154102",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Nynaeve_al%27Meara"
+  },
+  {
+    "id": 5,
+    "first_name": "Egwene",
+    "last_name": "al'Vere",
+    "full_name": "Egwene al'Vere",
+    "nationality": "Andoran",
+    "date_of_birth": "981 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'3\" (160 cm)",
+      "hair_color": "Brown",
+      "eye_color": "Brown"
+    },
+    "titles": [
+      "Amyrlin Seat"
+    ],
+    "rank": "Aes Sedai",
+    "belonged_groups": [
+      "White Tower"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Ravens"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Chapter 37"
+    },
+    "description": "Egwene al’Vere rises from a village girl to become Amyrlin Seat of the reunited White Tower. A powerful Dreamer and skilled channeler, she leads the Aes Sedai through the Last Battle and sacrifices herself using a Flame of Tar Valon weave to thwart the Seanchan ter’angreal attack.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/e/e2/Wot-_egwene.jpg/revision/latest?cb=20160605153945",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Egwene_al%27Vere"
+  },
+  {
+    "id": 6,
+    "first_name": "Moiraine",
+    "last_name": "Damodred",
+    "full_name": "Moiraine Damodred",
+    "nationality": "Cairhienin",
+    "date_of_birth": "956 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "Short (~5'2\")",
+      "hair_color": "Brown",
+      "eye_color": "Large brown"
+    },
+    "titles": [
+      "Lady"
+    ],
+    "rank": "Aes Sedai",
+    "belonged_groups": [
+      "Blue Ajah"
+    ],
+    "first_appearance": {
+      "book": "New Spring",
+      "chapter": "2"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Moiraine Damodred is an Aes Sedai of the Blue Ajah who initially guides the ta’veren from the Two Rivers. A noble from Cairhien, she tirelessly works to find and train Rand al’Thor, surviving numerous trials including imprisonment by the Finn. She is renowned for her cunning and sacrifice in the fight against the Shadow.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/1/18/Wot_card_teasers_moiraine_by_reddera-d3r8il3.jpg/revision/latest?cb=20160607234439",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Moiraine_Damodred"
+  },
+  {
+    "id": 7,
+    "first_name": "Lan",
+    "last_name": "Mandragoran",
+    "full_name": "al'Lan Mandragoran",
+    "nationality": "Malkieri",
+    "date_of_birth": "953 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "6'5.5\" (197 cm)",
+      "hair_color": "Dark, graying",
+      "eye_color": "Blue"
+    },
+    "titles": [
+      "Lord of the Seven Towers",
+      "Lord of the Lakes",
+      "True Blade of Malkier",
+      "Defender of the Wall of First Fires",
+      "Bearer of the Sword of the Thousand Lakes",
+      "Dai Shan",
+      "King of Malkier"
+    ],
+    "rank": "Warder",
+    "belonged_groups": [
+      "Warder"
+    ],
+    "first_appearance": {
+      "book": "New Spring",
+      "chapter": "1"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "al’Lan Mandragoran is the stoic last king of Malkier and a legendary swordsman. Bound as a Warder to Moiraine Damodred and later to Nynaeve al’Meara, he embodies duty and honor, leading borderland forces and ultimately reclaiming the title of King of Malkier after the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/3/37/Lan.jpg/revision/latest?cb=20131102154036",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Lan_Mandragoran"
+  },
+  {
+    "id": 8,
+    "first_name": "Aviendha",
+    "last_name": "",
+    "full_name": "Aviendha",
+    "nationality": "Aiel",
+    "date_of_birth": "980 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'9\" (175 cm)",
+      "hair_color": "Dark reddish",
+      "eye_color": "Blue-green"
+    },
+    "titles": [],
+    "rank": "Wise One",
+    "belonged_groups": [
+      "Taardad clan",
+      "Nine Valleys sept",
+      "Far Dareis Mai"
+    ],
+    "first_appearance": {
+      "book": "The Dragon Reborn",
+      "chapter": "38"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Aviendha, formerly a Maiden of the Spear of the Nine Valleys sept of the Taardad Aiel, becomes one of the strongest female channelers and a Wise One. She is one of Rand al’Thor’s three lovers and plays a crucial role in uniting the Aiel behind the Dragon Reborn and ensuring their future in the Dragon’s Peace.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/6/6d/Wot_aviendha_by_reddera-d4qnjht.jpg/revision/latest?cb=20160605160621",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Aviendha"
+  },
+  {
+    "id": 9,
+    "first_name": "Elayne",
+    "last_name": "Trakand",
+    "full_name": "Elayne Trakand",
+    "nationality": "Andoran",
+    "date_of_birth": "981 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'7\" (170 cm)",
+      "hair_color": "Reddish golden blonde",
+      "eye_color": "Blue"
+    },
+    "titles": [
+      "Queen of Andor and Cairhien",
+      "Defender of the Realm",
+      "Protector of the People",
+      "High Seat of House Trakand"
+    ],
+    "rank": "Aes Sedai",
+    "belonged_groups": [
+      "Green Ajah"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "39"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Elayne Trakand is the Daughter-Heir of Andor who becomes Queen of both Andor and Cairhien and an Aes Sedai of the Green Ajah. A strong channeler, she helps rediscover lost weaves and fights alongside Rand al’Thor, later bearing his children and playing a significant political role in uniting the Westlands.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/3/30/Wot_elayne_trakand_by_reddera-d4sxaz5.jpg/revision/latest?cb=20160606121940",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Elayne_Trakand"
+  },
+  {
+    "id": 10,
+    "first_name": "Elmindreda",
+    "last_name": "Farshaw",
+    "full_name": "Elmindreda Farshaw",
+    "nationality": "Andoran",
+    "date_of_birth": "975 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'5\" (165 cm)",
+      "hair_color": "Brown",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "Truthspeaker"
+    ],
+    "rank": "Doomseer",
+    "belonged_groups": [],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "14"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Elmindreda \"Min\" Farshaw, a woman from Baerlon, possesses the rare ability to see auras and visions that foretell future events. Known for her tomboyish demeanor, she becomes a close companion and lover of Rand al’Thor, and acts as his Truthspeaker and philosophical advisor.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/6/6b/Wot_min_by_reddera-d51frsi.jpg/revision/latest?cb=20160606122351",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Min_Farshaw"
+  },
+  {
+    "id": 11,
+    "first_name": "Zarine",
+    "last_name": "Bashere",
+    "full_name": "Zarine ni Bashere t'Aybara",
+    "nationality": "Saldaean",
+    "date_of_birth": "981 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'7\" (170 cm)",
+      "hair_color": "Black (shoulder length)",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "Lady"
+    ],
+    "rank": "Lady",
+    "belonged_groups": [
+      "Perrin Aybara's followers"
+    ],
+    "first_appearance": {
+      "book": "The Dragon Reborn",
+      "chapter": "33"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Zarine ni Bashere t'Aybara, better known as Faile, is a Saldaean noblewoman who becomes the Lady of the Two Rivers and later Queen of Saldaea after marrying Perrin Aybara. Adventurous and fiercely loyal, she undertakes missions with Perrin, organizes Cha Faile, and plays a key role in the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/a/a3/Wot-_faile_bashere.jpg/revision/latest?cb=20160605154039",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Faile_Bashere"
+  },
+  {
+    "id": 12,
+    "first_name": "Tuon",
+    "last_name": "Athaem Kore Paendrag",
+    "full_name": "Tuon Athaem Kore Paendrag",
+    "nationality": "Seanchan",
+    "date_of_birth": "980 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "4'11\" (150 cm)",
+      "hair_color": "Black",
+      "eye_color": "Brown"
+    },
+    "titles": [
+      "Empress"
+    ],
+    "rank": "Empress",
+    "belonged_groups": [
+      "Seanchan"
+    ],
+    "first_appearance": {
+      "book": "Winter's Heart",
+      "chapter": "14"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Fortuona Athaem Devi Paendrag, formerly Tuon Athaem Kore Paendrag and known as the Daughter of the Nine Moons, becomes the Empress of Seanchan. Initially heir to the Seanchan throne, she marries Mat Cauthon and balances imperial ambitions with the war against the Shadow, eventually joining the coalition of the Light in the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/0/0f/Tuon.jpg/revision/latest?cb=20091211172114",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Tuon_Athaem_Kore_Paendrag"
+  },
+  {
+    "id": 13,
+    "first_name": "Logain",
+    "last_name": "Ablar",
+    "full_name": "Logain Ablar",
+    "nationality": "Ghealdanin",
+    "date_of_birth": "971/972 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "6'2\" (188 cm)",
+      "hair_color": "Dark curly",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "Sealbreaker"
+    ],
+    "rank": "Asha'man",
+    "belonged_groups": [
+      "Black Tower",
+      "Dragon Reborn"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Ravens"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Logain Ablar is a powerful male channeler who initially declared himself the Dragon Reborn. After being captured and gentled, he is restored to the One Power and becomes a leader in the Black Tower. He survives the Last Battle and is prophesied to rise to great glory.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/7/77/Logain.jpg/revision/latest?cb=20091211114810",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Logain_Ablar"
+  },
+  {
+    "id": 14,
+    "first_name": "Lanfear",
+    "last_name": "",
+    "full_name": "Lanfear",
+    "nationality": "Age of Legends",
+    "date_of_birth": "Age of Legends",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'11\" (180 cm)",
+      "hair_color": "Black",
+      "eye_color": "Black"
+    },
+    "titles": [
+      "Chosen",
+      "Daughter of the Night"
+    ],
+    "rank": "Forsaken",
+    "belonged_groups": [
+      "Forsaken"
+    ],
+    "first_appearance": {
+      "book": "The Great Hunt",
+      "chapter": "16"
+    },
+    "last_appearance": {
+      "book": "The Fires of Heaven",
+      "chapter": "53"
+    },
+    "description": "Lanfear, born Mierin Eronaile, is one of the Forsaken. Once a brilliant researcher in the Age of Legends, she turned to the Shadow out of ambition and jealousy. Obsessed with Lews Therin Telamon and later Rand al'Thor, she repeatedly attempts to manipulate him before perishing in a battle with Moiraine Damodred.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/e/e2/Lanfear_saliba2.jpg/revision/latest?cb=20160605154211",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Lanfear"
+  },
+  {
+    "id": 15,
+    "first_name": "Loial",
+    "last_name": "Halan",
+    "full_name": "Loial son of Arent son of Halan",
+    "nationality": "Ogier",
+    "date_of_birth": "908 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Very tall",
+      "hair_color": "Black, shaggy",
+      "eye_color": "Pale"
+    },
+    "titles": [],
+    "rank": "Treesinger",
+    "belonged_groups": [
+      "Ogier",
+      "Stedding Shangtai"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "36"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Loial is a young Ogier renowned for his love of books and history. Gentle and towering, he befriends Rand al'Thor and records the events of the Last Battle. His knowledge of the Ways and the Song assists the forces of the Light.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/6/6f/Wot_loial_by_reddera-d4jw4u4.jpg/revision/latest?cb=20160605151621",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Loial"
+  },
+  {
+    "id": 16,
+    "first_name": "Lelaine",
+    "last_name": "Akashi",
+    "full_name": "Lelaine Akashi",
+    "nationality": "Kandori",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "Slender",
+      "hair_color": "Unknown",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "First Selector"
+    ],
+    "rank": "Aes Sedai",
+    "belonged_groups": [
+      "Blue Ajah",
+      "White Tower"
+    ],
+    "first_appearance": {
+      "book": "New Spring",
+      "chapter": "11"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "37"
+    },
+    "description": "Lelaine Akashi is a Kandori Aes Sedai of the Blue Ajah and a Sitter in the Hall. She leads part of the rebel Hall during the White Tower schism and plays a significant role in the reunification of the Tower.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/f/f6/LelaineSedai.png/revision/latest?cb=20220411042818",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Lelaine_Akashi"
+  },
+  {
+    "id": 17,
+    "first_name": "Tam",
+    "last_name": "al'Thor",
+    "full_name": "Tam al'Thor",
+    "nationality": "Andoran",
+    "date_of_birth": "940 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Average",
+      "hair_color": "Gray",
+      "eye_color": "Unknown"
+    },
+    "titles": [
+      "Village Councilor",
+      "First Captain"
+    ],
+    "rank": "First Captain",
+    "belonged_groups": [
+      "Illianer Army",
+      "Two Rivers"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "1"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Tam al'Thor, Rand's adoptive father, is a former First Captain of the Illianer Companions and a master swordsman. He raises Rand in the Two Rivers and later leads its men into battle during the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/a/ae/Tam_Al%27Thor.JPG/revision/latest?cb=20100915181552",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Tam_al'Thor"
+  },
+  {
+    "id": 18,
+    "first_name": "Davram",
+    "last_name": "Bashere",
+    "full_name": "Davram t'Ghaline Bashere",
+    "nationality": "Saldaean",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "5'7\" (170 cm)",
+      "hair_color": "Gray streaked with black",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "Lord of Bashere, Tyr and Sidona",
+      "Guardian of the Blightborder",
+      "Defender of the Heartland"
+    ],
+    "rank": "Marshal-General of Saldaea",
+    "belonged_groups": [
+      "Saldaean Army"
+    ],
+    "first_appearance": {
+      "book": "The Fires of Heaven",
+      "chapter": "56"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "37"
+    },
+    "description": "Davram t'Ghaline Bashere is the Marshal-General of Saldaea and one of the Five Great Captains. A seasoned commander and father of Faile Bashere, he leads Saldaean troops in the fight against the Shadow and helps unify the Borderlanders.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/a/a3/Davram_bashere_karaburrito.png/revision/latest?cb=20130930010327",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Davram_Bashere"
+  },
+  {
+    "id": 19,
+    "first_name": "Bayle",
+    "last_name": "Domon",
+    "full_name": "Bayle Domon",
+    "nationality": "Illianer",
+    "date_of_birth": "c. 955 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "5'10\" (178 cm)",
+      "hair_color": "Brown",
+      "eye_color": "Dark"
+    },
+    "titles": [],
+    "rank": "So'jhin",
+    "belonged_groups": [
+      "Seanchan",
+      "Captain of the Spray"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "20"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "23"
+    },
+    "description": "Bayle Domon is a broad-shouldered Illianer smuggler and captain of the riverboat Spray. Captured by the Seanchan, he becomes a so'jhin to Tuon and later assists Mat Cauthon. His knowledge of artifacts and tenacity prove valuable in the war against the Shadow.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/8/85/Domon.jpg/revision/latest?cb=20091211114941",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Bayle_Domon"
+  },
+  {
+    "id": 20,
+    "first_name": "Rodel",
+    "last_name": "Ituralde",
+    "full_name": "Rodel Ituralde",
+    "nationality": "Domani",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Short",
+      "hair_color": "Unknown",
+      "eye_color": "Unknown"
+    },
+    "titles": [
+      "Five Great Captains"
+    ],
+    "rank": "King of Arad Doman",
+    "belonged_groups": [
+      "Arad Doman Army"
+    ],
+    "first_appearance": {
+      "book": "Crossroads of Twilight",
+      "chapter": "Prologue"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Rodel Ituralde, called the Wolf, is a masterful Domani general and one of the Five Great Captains. He leads the armies of Arad Doman against Seanchan incursions and, after the Last Battle, is crowned king.",
+    "profile_picture": null,
+    "wiki_page_link": "https://wot.fandom.com/wiki/Rodel_Ituralde"
+  },
+  {
+    "id": 21,
+    "first_name": "Barid",
+    "last_name": "Medar",
+    "full_name": "Barid Bel Medar (Demandred)",
+    "nationality": "Age of Legends",
+    "date_of_birth": "Age of Legends",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Tall",
+      "hair_color": "Jet-black",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "Blademaster",
+      "Chosen"
+    ],
+    "rank": "Chosen",
+    "belonged_groups": [
+      "Forsaken"
+    ],
+    "first_appearance": {
+      "book": "Lord of Chaos",
+      "chapter": "Prologue"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "37"
+    },
+    "description": "Barid Bel Medar, better known as Demandred, is one of the Forsaken. Jealous of Lews Therin Telamon, he turned to the Dark One and became a formidable military leader. At the Last Battle he commands the Sharan armies until he is slain by Lan Mandragoran.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/9/93/Wot_demandred_by_reddera-d4falp3.jpg/revision/latest?cb=20160605154146",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Demandred"
+  },
+  {
+    "id": 22,
+    "first_name": "Kamarile",
+    "last_name": "Nindar",
+    "full_name": "Kamarile Maradim Nindar (Graendal)",
+    "nationality": "Age of Legends",
+    "date_of_birth": "Age of Legends",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "Unknown",
+      "hair_color": "Red-gold, curled",
+      "eye_color": "Unknown"
+    },
+    "titles": [
+      "Chosen"
+    ],
+    "rank": "Chosen",
+    "belonged_groups": [
+      "Forsaken"
+    ],
+    "first_appearance": {
+      "book": "The Fires of Heaven",
+      "chapter": "Prologue"
+    },
+    "last_appearance": {
+      "book": "Towers of Midnight",
+      "chapter": "Epilogue"
+    },
+    "description": "Kamarile Maradim Nindar, called Graendal, is one of the Forsaken. Formerly a renowned therapist, she turned to the Shadow and embraced decadence and mind-control. She manipulates world leaders for the Shadow and later becomes compelled by the Dark One to serve Moridin.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/1/17/Wot_card_teasers_graendal_by_reddera-d4dj757.jpg/revision/latest?cb=20160605153259",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Graendal"
+  },
+  {
+    "id": 23,
+    "first_name": "Birgitte",
+    "last_name": "Silverbow",
+    "full_name": "Birgitte Silverbow",
+    "nationality": "Unknown",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'7\" (170 cm)",
+      "hair_color": "Blonde",
+      "eye_color": "Blue"
+    },
+    "titles": [
+      "Hero of the Horn",
+      "Captain-General of the Queen's Guard"
+    ],
+    "rank": "Warder",
+    "belonged_groups": [
+      "House Trakand",
+      "Heroes of the Horn"
+    ],
+    "first_appearance": {
+      "book": "The Great Hunt",
+      "chapter": "47"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Birgitte Silverbow is a legendary Hero of the Horn renowned for her archery. Torn from Tel'aran'rhiod, she becomes bonded as Warder to Elayne Trakand and later leads the Queen's Guard. Throughout the Last Battle she lends her centuries of experience to the forces of the Light.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/3/33/Birgitte_Silverbow_by_Ariel_Burgess%2C_Official_Wheel_of_Time_Artist.jpg/revision/latest?cb=20250814124850",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Birgitte_Silverbow"
+  },
+  {
+    "id": 24,
+    "first_name": "Siuan",
+    "last_name": "Sanche",
+    "full_name": "Siuan Sanche",
+    "nationality": "Tairen",
+    "date_of_birth": "957 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "Average",
+      "hair_color": "Dark, shoulder-length",
+      "eye_color": "Blue"
+    },
+    "titles": [
+      "Amyrlin Seat"
+    ],
+    "rank": "Aes Sedai",
+    "belonged_groups": [
+      "Blue Ajah",
+      "White Tower"
+    ],
+    "first_appearance": {
+      "book": "New Spring",
+      "chapter": "2"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "37"
+    },
+    "description": "Siuan Sanche rises from a fisherman's daughter in Tear to become the Amyrlin Seat. Deposed and stilled during the Tower coup, she is later Healed and aids Egwene al'Vere in reuniting the White Tower. She dies heroically in the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/a/a8/Siuan_Sanche-New_Spring-close1.png/revision/latest?cb=20220411042718",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Siuan_Sanche"
+  },
+  {
+    "id": 25,
+    "first_name": "Thom",
+    "last_name": "Merrilin",
+    "full_name": "Thomdril Merrilin",
+    "nationality": "Andoran",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "6'0\" (183 cm)",
+      "hair_color": "White",
+      "eye_color": "Blue"
+    },
+    "titles": [
+      "Gleeman",
+      "Court Bard",
+      "Warder"
+    ],
+    "rank": "Bard",
+    "belonged_groups": [],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "4"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Thomdril 'Thom' Merrilin is a masterful gleeman and former Court Bard of Caemlyn. Accompanying the ta'veren, he uses his wit, knowledge, and deadly knives to aid their journey. Later, he weds Moiraine Damodred and becomes her Warder.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/5/5f/Wot_card_teasers_3_thom_by_reddera-d3i4wpj.jpg/revision/latest?cb=20160605161414",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Thom_Merrilin"
+  },
+  {
+    "id": 26,
+    "first_name": "Galad",
+    "last_name": "Damodred",
+    "full_name": "Galadedrid Damodred",
+    "nationality": "Andoran",
+    "date_of_birth": "970 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Tall",
+      "hair_color": "Dark",
+      "eye_color": "Dark"
+    },
+    "titles": [
+      "First Prince of the Sword"
+    ],
+    "rank": "Lord Captain Commander",
+    "belonged_groups": [
+      "Children of the Light"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "40"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "37"
+    },
+    "description": "Galadedrid 'Galad' Damodred is a nobleman known for his strict adherence to justice. Half-brother to Elayne and Gawyn, he joins the Children of the Light and rises to Lord Captain Commander. He fights for the Light during the Last Battle despite his previous conflicts with Rand al'Thor.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/3/36/Wot_galad_damodred_by_reddera-d4szi2x.jpg/revision/latest?cb=20160606122019",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Galad_Damodred"
+  },
+  {
+    "id": 27,
+    "first_name": "Gawyn",
+    "last_name": "Trakand",
+    "full_name": "Gawyn Trakand",
+    "nationality": "Andoran",
+    "date_of_birth": "979 NE",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "6'5\" (196 cm)",
+      "hair_color": "Red-gold",
+      "eye_color": "Blue"
+    },
+    "titles": [
+      "First Prince of the Sword",
+      "Gaidin"
+    ],
+    "rank": "Warder",
+    "belonged_groups": [
+      "Younglings",
+      "White Tower"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "40"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "37"
+    },
+    "description": "Gawyn Trakand is the brother of Elayne and half-brother of Galad. As leader of the Younglings, he fights against the rebels during the Tower split. Later, he becomes Egwene al'Vere's Warder and dies dueling Demandred in the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/5/55/Wot_card_teasers_gawyn_by_reddera-d489bc1.jpg/revision/latest?cb=20160607234251",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Gawyn_Trakand"
+  },
+  {
+    "id": 28,
+    "first_name": "Rhuarc",
+    "last_name": "",
+    "full_name": "Rhuarc",
+    "nationality": "Aiel",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Tall",
+      "hair_color": "Dark red, graying",
+      "eye_color": "Unknown"
+    },
+    "titles": [
+      "Clan Chief of the Taardad Aiel"
+    ],
+    "rank": "Clan Chief",
+    "belonged_groups": [
+      "Taardad Clan",
+      "Aiel"
+    ],
+    "first_appearance": {
+      "book": "The Dragon Reborn",
+      "chapter": "39"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "42"
+    },
+    "description": "Rhuarc is the clan chief of the Taardad Aiel and one of the first Aiel to support Rand al'Thor as Car'a'carn. A tall, formidable warrior, he aids Rand in uniting the Aiel and later dies defending Shayol Ghul during the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/0/04/Rhuarc.jpg/revision/latest?cb=20100321235824",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Rhuarc"
+  },
+  {
+    "id": 29,
+    "first_name": "Padan",
+    "last_name": "Fain",
+    "full_name": "Padan Fain",
+    "nationality": "Murandian",
+    "date_of_birth": "Unknown",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Unknown",
+      "hair_color": "Unknown",
+      "eye_color": "Dark"
+    },
+    "titles": [],
+    "rank": "Darkfriend",
+    "belonged_groups": [
+      "Darkfriends"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "2"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "47"
+    },
+    "description": "Padan Fain is a Murandian peddler who becomes a Darkfriend and later merges with the malevolent entity Mordeth. As Shaisam, he hunts Rand al'Thor obsessively and spreads corruption until he is finally slain by Mat Cauthon during the Last Battle.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/1/1f/Wot_padan_fain_by_reddera-d507pr0.jpg/revision/latest?cb=20160606122615",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Padan_Fain"
+  },
+  {
+    "id": 30,
+    "first_name": "Elan",
+    "last_name": "Morin Tedronai",
+    "full_name": "Elan Morin Tedronai",
+    "nationality": "Age of Legends",
+    "date_of_birth": "Age of Legends",
+    "physical_appearance": {
+      "gender": "Male",
+      "height": "Tall",
+      "hair_color": "Black",
+      "eye_color": "Fiery"
+    },
+    "titles": [
+      "Ba'alzamon",
+      "Nae'blis",
+      "Chosen"
+    ],
+    "rank": "Forsaken",
+    "belonged_groups": [
+      "Forsaken"
+    ],
+    "first_appearance": {
+      "book": "The Eye of the World",
+      "chapter": "Prologue"
+    },
+    "last_appearance": {
+      "book": "The Dragon Reborn",
+      "chapter": "56"
+    },
+    "description": "Elan Morin Tedronai, also known as Ishamael and Ba'alzamon, is the most powerful of the Forsaken and serves as the Dark One's chief lieutenant. A philosopher who turned to the Shadow, he seeks to destroy the Pattern and battles Rand al'Thor across time until his defeat in the Stone of Tear.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/a/ab/Elan_Morin_Tedronai.jpg/revision/latest?cb=20100321033916",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Ishamael"
+  },
+  {
+    "id": 31,
+    "first_name": "Cadsuane",
+    "last_name": "Melaidhrin",
+    "full_name": "Cadsuane Melaidhrin",
+    "nationality": "Far Madding",
+    "date_of_birth": "705 NE",
+    "physical_appearance": {
+      "gender": "Female",
+      "height": "5'5\" (165 cm)",
+      "hair_color": "Iron gray",
+      "eye_color": "Nearly black"
+    },
+    "titles": [
+      "Amyrlin Seat"
+    ],
+    "rank": "Aes Sedai",
+    "belonged_groups": [
+      "Green Ajah",
+      "White Tower"
+    ],
+    "first_appearance": {
+      "book": "New Spring",
+      "chapter": "17"
+    },
+    "last_appearance": {
+      "book": "A Memory of Light",
+      "chapter": "Epilogue"
+    },
+    "description": "Cadsuane Melaidhrin is the oldest living Aes Sedai and a formidable figure in the Green Ajah. She is known for her mastery of rare angreal and her determination to guide Rand al'Thor. After the Last Battle, she is raised to the Amyrlin Seat of a reunited White Tower.",
+    "profile_picture": "https://static.wikia.nocookie.net/wot/images/5/55/Wot_cadsuane_by_reddera-d4s5q6c.jpg/revision/latest?cb=20160605153342",
+    "wiki_page_link": "https://wot.fandom.com/wiki/Cadsuane_Melaidhrin"
+  }
+]
