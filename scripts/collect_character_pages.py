@@ -26,7 +26,7 @@ GROUPS_PATH = DATA_DIR / "character_groups.txt"
 OUTPUT_PATH_GROUPS = DATA_DIR / "character_pages.json"
 OUTPUT_PATH_CHARS = DATA_DIR / "character_groups.json"
 
-MAX_RESULTS = 100
+MAX_RESULTS = 250
 
 
 def collect_pages_for_group(char_dict: dict, group_name: str) -> List[Dict[str, str]]:
