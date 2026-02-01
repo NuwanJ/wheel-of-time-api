@@ -8,6 +8,7 @@ gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 gem "tzinfo-data"
 
 group :jekyll_plugins do
+  gem "jekyll-remote-theme"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
 end

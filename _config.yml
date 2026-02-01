@@ -18,8 +18,11 @@ minima:
 permalink: /:categories/:year-:month-:day-:title:output_ext
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# remote_theme: NuwanJ/jekyll-minima-bootstrap-5-boilerplate
 
 exclude:
   [
@@ -31,6 +34,7 @@ exclude:
     'package.json',
     'package-lock.json',
     'script/',
+    'prompts/',
     'LICENSE.txt',
     'lib/',
     'bin/',

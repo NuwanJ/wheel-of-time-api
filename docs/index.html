@@ -1,3 +1,9 @@
+---
+title: 'Wheel of Time API Docs'
+layout: none
+permalink: /docs/
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -25,7 +31,7 @@
           version: '1.0.0',
           description: 'API for Wheel of Time character data. Source: api/characters/v1/index.json',
         },
-        servers: [{ url: '/' }],
+        servers: [{ url: '{{ site.url }}{{ site.baseurl }}/' }],
         paths: {
           '/api/characters/v1': {
             get: {

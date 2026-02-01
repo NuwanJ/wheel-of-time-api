@@ -18,4 +18,12 @@ This API provides access to detailed information about the characters, locations
 
 ## API Documentation
 
-Detailed API documentation is available at [API Documentation](https://wheel-of-time-api.docs.apiary.io/).
+Detailed API documentation is available at [API Documentation](/docs/).
+
+---
+
+## References
+
+- [Official Wheel of Time Website](https://www.wotseries.com/)
+- [Wheel of Time Wiki (Fandom)](https://wot.fandom.com/wiki/A_beginning)
+- [Robert Jordan (Wiki)](https://en.wikipedia.org/wiki/Robert_Jordan)
